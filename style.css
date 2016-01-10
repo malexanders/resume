@@ -1,0 +1,106 @@
+
+
+body {
+	font-family: 'Titillium Web', "Helvetica Neue", helvetica, sans-serif;
+	background: #466368;
+	background: -webkit-linear-gradient(#77AD66, #527846);
+	background:    -moz-linear-gradient(#77AD66, #527846);
+	background:         linear-gradient(#77AD66, #527846);
+	font-size: 14px;
+}
+
+h1 {
+	border-bottom: 3px solid black;
+}
+
+h2 {
+	border-bottom: 1px dashed black;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+	color: #ECF6D3;
+}
+
+header ul {
+	list-style: none;
+	padding: 0px;
+	float: left;
+	margin-top: 50px;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+
+header img {
+	border-radius: 25%;
+	float: left;
+	display: block;
+	margin-right: 45px;
+	margin-bottom: 30px;
+}
+
+.main-resume-section > section {
+	clear: both;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills-experience-section div {
+	width: 25%;
+	float: left;
+	border: 2px solid #2A3327;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	letter-spacing: -0.5;
+	height: 250px;
+}
+
+.job-experience-section ul {
+	list-style: none;
+	padding: none;
+}
+
+.job-experience-section ul li {
+	float: left;
+	display: block;
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	border-right: none;
+}
+
+.job-experience-section ul:last-child {
+	border-right: 1px solid black;
+}
+
+.job-selected {
+	border-bottom: none !important;
+}
+
+.job-date {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+}
+
+footer h3 {
+	font-style: italic;
+}
+
+
+
