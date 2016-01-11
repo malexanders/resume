@@ -1,23 +1,25 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.11.4.custom/jquery-ui.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="assets/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 	<script>
-  $(function() {
-    $( "#tabs" ).tabs();
-  });
-  </script>
+	  $(function() {
+	    $( "#tabs" ).tabs();
+	  });
+    </script>
+    <link rel="stylesheet" href="assets/style.css">
+
+  <title>Christopher George Staikos</title>
   </head>
 
   <body>
 
   	<header class="container">
   		<h1>Christopher George Staikos</h1>
-  		<img src="chris.jpg" height="250" width="250">
+  		<img src="chris.jpg" height="250" width="250" alt="A photo of Chris Staikos' face">
   		<ul>
   			<li><a href="mailto:cstaikos@gmail.com">cstaikos@gmail.com</a></li>
   			<li>(647) 802-8540</li>
@@ -89,59 +91,56 @@
 
 	  	<!-- Education Section -->
 	  	<section>
-	  		<h2>Education</h2>
-	  		<ul>
-	  			<li>Queen's University -- 2007-2012</li>
-	  			<ul>
+	  		<h2>Education</h2>	  		
+	  			<h3>Queen's University - 2007-2012</h3>
+  				<ul>
 	  				<li>Bachelors Degree in Computer Science with Honors - Specialization in Cognitive Science.</li>
 	  			</ul>
-			</ul>
 	  	</section>
 
 	  	<!-- Job Experience Section -->
-	  	<!-- <section class="job-experience-section">
+	  	<section>
 	  		<h2>Professional Experience</h2>
-	  		<ul>
-	  			<li class="job-selected">
-	  				Web Developer
-	  				<br/>
-	  				Salytics
-	  				<br/>
-	  				<span class="job-date">2015-2016</span>
-	  			</li>
-	  			<li>Web Coordinator
-	  				<br/>
-	  				Lug Canada
-	  				<br/>
-	  				<span class="job-date">2012-2015</span>
-	  			</li>
-	  			<li>Research Assistan
-	  				<br/>
-	  				Queen's University
-	  				<br/>
-	  				<span class="job-date">2011</span>
-	  			</li>
-	  		</ul>
+		  	<div id="tabs">
+			  <ul>
+			    <li><a href="#tabs-1">Web Developer <br> Salytics <br> 2015-2016</a></li>
+			    <li><a href="#tabs-2">Web Coordinator <br> Lug Canada <br> 2012-2015</a></li>
+			    <li><a href="#tabs-3">Research Assistant <br> Queen's University <br> 2011</a></li>
+			  </ul>
+			  <div id="tabs-1">
+				<ul>
+					<li>Built responsive front-end of a customer-facing support portal using the force.com platform maintained by Salesforce. Maintained site, releasing bug fixes and new features on a 2-week release cycle post-launch for 6 months. Site has over 25,000 active users and can be seen at <a href="https://support.docusign.com">support.docusign.com</a></li>
+					<br>
+					<li>Worked on several smaller projects on the force.com platform, writing both VisualForce and APEX code, as well as working intimately with the Salesforce.com UI.</li>
+					<br>
+					<li>Worked extensively with both Eloqua and Marketo (marketing automation tools) on a variety of projects for different clients.</li>
+					<br>
+					<li>Led the creation of a new company website: wrote content, devised new site structure, sourced designers and WordPress developers to deliver a quality site on-time and within budget.</li>
+				</ul>
+			  </div>
+			  <div id="tabs-2">
+			    <ul>
+			    	<li>Created previously non-existent position of Web Coordinator, and was responsible for the growth of web sales and maintenance of the company's e-commerce website. Grew web profits by 30% year-over-year.</li>
+			    	<br>
+			    	<li>Hired and managed co-op students to assist with day-to-day tasks</li>
+			    	<br>
+			    	<li>Responsible for ensuring all EDI transactions were transmitted and processed in a timely manner, and oversaw various new integrations between the company's EDI platform and their ERP.</li>
+			    </ul>
+			  </div>
+			  <div id="tabs-3">
+			    <ul>
+			    	<li>Research Assistant under Dr. Doug Mewhort</li>
+			    	<br>
+			    	<li>Implemented theoretical models of human memory storage and retrieval, and compared their performance to experimental data found in scientific literature.</li>
+			    	<br>
+			    	<li>Learned FORTRAN programming language and encountered Ubuntu for the first time. Learned both on the fly to carry out work in a timely manner.
+					</li>
+			    </ul>
+			  </div>
+			</div>
+		</section>
 
 
-	  	</section> -->
-
-	  	<div id="tabs">
-		  <ul>
-		    <li><a href="#tabs-1">Web Developer <br/> Salytics <br/> 2015-2016</a></li>
-		    <li><a href="#tabs-2">Web Coordinator <br/> Lug Canada <br/> 2012-2015</a></li>
-		    <li><a href="#tabs-3">Research Assistant <br/> Queen's University <br/> 2011</a></li>
-		  </ul>
-		  <div id="tabs-1">
-			<p>This is tab 1</p>
-		  </div>
-		  <div id="tabs-2">
-		    <p>This is tab 2</p>
-		  </div>
-		  <div id="tabs-3">
-		    <p>This is tab 3</p>
-		  </div>
-		</div>
 
 	</div>
 	<!-- END MAIN SECTION -->
